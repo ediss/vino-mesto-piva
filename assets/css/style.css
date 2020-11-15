@@ -1,0 +1,56 @@
+@font-face {
+    font-family: Gotham-bold;
+    src: url('../font/Gotham/Gotham-Bold.otf');
+}
+
+@font-face {
+    font-family: Gotham;
+    src: url('../font/Gotham/GothamBook.ttf');
+}
+
+@font-face {
+    font-family: Gotham-italic;
+    src: url('../font/Gotham/GothamBookItalic.ttf');
+}
+.bg-dark-linear {
+    background-image: linear-gradient(to bottom, #000000, #0b0b0b, #141414, #1a1a1a, #202020, #202020, #202020, #202020, #1a1a1a, #141414, #0b0b0b, #000000);
+}
+
+.bg-dark-linear h4 {
+    font-family: Gotham;
+    line-height: 102pt;
+    font-size: 30pt;
+    color: #d6d6d6;
+}
+
+.bg-dark-linear p {
+    font-family: Gotham;
+    line-height: 24pt;
+    font-size: 12pt;
+    color: #d6d6d6;
+    letter-spacing: 0.05em;
+}
+
+.bg-dark-linear .brand {
+    font-family: Gotham-bold;
+    color: #d6d6d6;
+
+    
+}
+.img-responsive {
+    widows: 100%;
+    height: auto;
+    max-height: 100vh;
+}
+
+.bg-dark-linear ul {
+    padding: 0;
+    list-style:none;
+}
+
+.bg-dark-linear ul li a{
+    text-decoration: none;
+
+    font-family: Gotham-italic;
+    color:#d6d6d6;
+}
