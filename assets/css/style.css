@@ -23,6 +23,12 @@
     color: #d6d6d6;
 }
 
+.bg-dark-linear h1 {
+    font-family: Gotham;
+
+    color:white;
+}
+
 .bg-dark-linear p {
     font-family: Gotham;
     line-height: 24pt;
@@ -56,7 +62,21 @@
 }
 
 .carousel-indicators li {
-    width: 10px;
-    height: 10px;
+    width: 7px;
+    height: 7px;
     border-radius: 100%;
-  }
+    border: 2px solid #d6d6d6;
+    background-color: transparent;
+    margin: 10px;
+}
+
+.carousel-indicators .active {
+    background-color: #d6d6d6;
+}
+
+
+.img-absolute {
+    position: absolute;
+    top: -12%;
+    right: 77%;
+}
