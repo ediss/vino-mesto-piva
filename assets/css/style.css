@@ -12,6 +12,9 @@
     font-family: Gotham-italic;
     src: url('../font/Gotham/GothamBookItalic.ttf');
 }
+
+
+
 .bg-dark-linear {
     background-image: linear-gradient(to bottom, #000000, #0b0b0b, #141414, #1a1a1a, #202020, #202020, #202020, #202020, #1a1a1a, #141414, #0b0b0b, #000000);
 }
@@ -19,7 +22,7 @@
 .bg-dark-linear h4 {
     font-family: Gotham;
     line-height: 102pt;
-    font-size: 30pt;
+    font-size: 20pt;
     color: #d6d6d6;
 }
 
@@ -34,14 +37,15 @@
     line-height: 24pt;
     font-size: 12pt;
     color: #d6d6d6;
-    letter-spacing: 0.05em;
+    letter-spacing: 0px;
+    
 }
 
 .bg-dark-linear .brand {
     font-family: Gotham-bold;
     color: #d6d6d6;
 
-    
+    line-height: 40pt;
 }
 .img-responsive {
     max-width: 100%;
@@ -79,4 +83,54 @@
     position: absolute;
     top: -12%;
     right: 77%;
+}
+
+.partner-logos img {
+    max-width: 80% !important;
+}
+
+.mouse-scroll {
+    z-index: 98;
+    position: absolute;
+    left: 47%;
+    top: 13%;
+}
+
+.mouse-scroll .fas {
+    color: #d6d6d6!important;
+}
+
+.mouse-scroll2 {
+    z-index: 98;
+    position: absolute;
+    left: 47%;
+    top: 8%;
+}
+
+.mouse-scroll2 .fas {
+    color: #d6d6d6!important;
+}
+
+
+.down-arrow {
+    -webkit-animation: downarrow 0.6s infinite alternate ease-in-out;
+    animation: downarrow 0.6s infinite alternate ease-in-out;
+}
+@-webkit-keyframes downarrow {
+    0% { -webkit-transform: translateY(0); opacity: 1 }
+    100% { -webkit-transform: translateY(1.1em); opacity: 1 }
+}
+@media screen and (min-width: 768px) {
+    .bg-dark-linear h4 {
+        font-size: 30pt;
+    }
+
+    .bg-dark-linear p {
+        line-height: 24pt;
+        letter-spacing: 0.05em;
+    }
+
+    .partner-logos img {
+        max-width: 100% !important;
+    }
 }
