@@ -22,7 +22,7 @@
 .bg-dark-linear h4 {
     font-family: Gotham;
     line-height: 102pt;
-    font-size: 20pt;
+    font-size: 15pt;
     color: #d6d6d6;
 }
 
@@ -93,7 +93,7 @@
     z-index: 98;
     position: absolute;
     left: 47%;
-    top: 13%;
+    top: 9%;
 }
 
 .mouse-scroll .fas {
@@ -104,7 +104,7 @@
     z-index: 98;
     position: absolute;
     left: 47%;
-    top: 8%;
+    top: 6%;
 }
 
 .mouse-scroll2 .fas {
@@ -119,6 +119,20 @@
 @-webkit-keyframes downarrow {
     0% { -webkit-transform: translateY(0); opacity: 1 }
     100% { -webkit-transform: translateY(1.1em); opacity: 1 }
+}
+
+@media screen and (min-width: 374px) {
+    .bg-dark-linear h4 {
+        font-size: 19pt;
+    }
+
+    .mouse-scroll {
+        top: 12%;
+    }
+
+    .mouse-scroll2 {
+        top: 8%;
+    }
 }
 @media screen and (min-width: 768px) {
     .bg-dark-linear h4 {
