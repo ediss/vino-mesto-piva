@@ -20,21 +20,21 @@
 }
 
 .bg-dark-linear h4 {
-    font-family: Gotham;
+    font-family: Gotham, sans-serif;
     line-height: 72pt;
     font-size: 15pt;
     color: #d6d6d6;
 }
 
 .bg-dark-linear h1 {
-    font-family: Gotham;
+    font-family: Gotham, sans-serif;
 
     color:white;
 }
 
 
 .bg-dark-linear p {
-    font-family: Gotham;
+    font-family: Gotham, sans-serif;
     line-height: 21pt;
     font-size: 12pt;
     color: #d6d6d6;
@@ -43,7 +43,7 @@
 }
 
 .bg-dark-linear .brand {
-    font-family: Gotham;
+    font-family: Gotham, sans-serif;
     color: #d6d6d6;
 
     line-height: 28pt;
@@ -62,7 +62,7 @@
 .bg-dark-linear ul li a{
     text-decoration: none;
 
-    font-family: Gotham-italic;
+    font-family: Gotham-italic, sans-serif;
     color:#d6d6d6;
 }
 
