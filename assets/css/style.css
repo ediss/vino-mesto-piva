@@ -21,7 +21,7 @@
 
 .bg-dark-linear h4 {
     font-family: Gotham;
-    line-height: 102pt;
+    line-height: 72pt;
     font-size: 15pt;
     color: #d6d6d6;
 }
@@ -31,6 +31,7 @@
 
     color:white;
 }
+
 
 .bg-dark-linear p {
     font-family: Gotham;
@@ -45,7 +46,7 @@
     font-family: Gotham;
     color: #d6d6d6;
 
-    line-height: 40pt;
+    line-height: 28pt;
 }
 .img-responsive {
     max-width: 100%;
@@ -93,7 +94,7 @@
     z-index: 98;
     position: absolute;
     left: 47%;
-    top: 11%;
+    top: 8%;
 }
 
 .mouse-scroll .fas {
@@ -104,7 +105,7 @@
     z-index: 98;
     position: absolute;
     left: 47%;
-    top: 6%;
+    top: 5%;
 }
 
 .mouse-scroll2 .fas {
@@ -127,11 +128,11 @@
     }
 
     .mouse-scroll {
-        top: 13%;
+        top: 10%;
     }
 
     .mouse-scroll2 {
-        top: 10%;
+        top: 6%;
     }
 }
 @media screen and (min-width: 768px) {
