@@ -20,7 +20,7 @@
 }
 
 .heading {
-    padding: 40px 0 30px;
+    padding: 25px 0 30px;
 }
 
 .bg-dark-linear h4 {
@@ -95,7 +95,7 @@
     z-index: 98;
     position: absolute;
     left: 47%;
-    top: 9%;
+    top: 10%;
 }
 
 .mouse-scroll .fas {
@@ -106,7 +106,7 @@
     z-index: 98;
     position: absolute;
     left: 47%;
-    top: 5%;
+    top: 6%;
 }
 
 .mouse-scroll2 .fas {
