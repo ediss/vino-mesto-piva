@@ -95,7 +95,7 @@
     z-index: 98;
     position: absolute;
     left: 47%;
-    top: 10%;
+    top: 9%;
 }
 
 .mouse-scroll .fas {
@@ -106,7 +106,7 @@
     z-index: 98;
     position: absolute;
     left: 47%;
-    top: 7%;
+    top: 5%;
 }
 
 .mouse-scroll2 .fas {
@@ -129,9 +129,8 @@
     }
 
     .mouse-scroll {
-        top: 10%;
+        top: 11%;
     }
-
     .mouse-scroll2 {
         top: 6%;
     }
