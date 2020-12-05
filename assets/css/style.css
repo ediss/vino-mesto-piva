@@ -113,10 +113,10 @@
     color: #d6d6d6!important;
 }
 
-#myCarousel-mobile .carousel-inner {
+/* #myCarousel-mobile .carousel-inner {
     height: calc(100vh - 30px);
-    /* calc(100% - 3em); */
-}
+    
+} */
 
 
 .down-arrow {
