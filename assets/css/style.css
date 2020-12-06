@@ -140,9 +140,9 @@
     top: 0;
     right: 70%; */
     position: absolute;
-    top: 35%;
-    right: 30%;
-    transform: scale(2);
+    top: 26%;
+    right: 22%;
+    transform: scale(1.8);
 }
 
 .justify-content-evenly {
