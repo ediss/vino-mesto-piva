@@ -89,7 +89,7 @@
 }
 
 .partner-logos img {
-    max-width: 45% !important;
+    max-width: 35% !important;
 }
 
 .mouse-scroll {
@@ -101,7 +101,7 @@
 
 .mouse-scroll i {
     position: absolute;
-    bottom: 25px;
+    bottom: 10%;
 }
 
 .mouse-scroll .fas {
