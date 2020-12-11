@@ -96,7 +96,12 @@
     z-index: 98;
     position: absolute;
     left: 47%;
-    top: 10%;
+    height: 100vh;
+}
+
+.mouse-scroll i {
+    position: absolute;
+    bottom: 25px;
 }
 
 .mouse-scroll .fas {
@@ -158,9 +163,6 @@
         font-size: 19pt;
     }
 
-    .mouse-scroll {
-        top: 11%;
-    }
     .mouse-scroll2 {
         top: 6%;
     }

@@ -46,6 +46,9 @@
                                     </div>
                                 </div>
                                 <div class="carousel-item">
+                                    <div class="mouse-scroll down-arrow">
+                                        <i class="fas fa-angle-double-down fa-2x "></i>
+                                    </div>
                                     <div class="d-flex align-items-center justify-content-center min-vh-100 p-5">
 
                                         <img src="assets/images/bottle.png" alt=""
@@ -56,9 +59,7 @@
                                                 <h4>VINO 'MESTO PIVA</h4>
                                             </div>
 
-                                            <div class="mouse-scroll down-arrow">
-                                                <i class="fas fa-angle-double-down fa-2x "></i>
-                                            </div>
+                                           
                                             <p>Te 2016. godine grupa prijatelja, zaljubljenika u vino, upustila se u
                                                 ovaj
                                                 vinski poduvat sa jedinom ambicijom da se uz druženje pije dobro vino po
@@ -82,6 +83,9 @@
                                     </div>
                                 </div>
                                 <div class="carousel-item">
+                                    <div class="mouse-scroll down-arrow">
+                                        <i class="fas fa-angle-double-down fa-2x "></i>
+                                    </div>
                                     <div class="d-flex align-items-center justify-content-center min-vh-100 p-5">
                                         <div class="bottle-absolute w-100 d-none d-lg-block">
                                             <img src="assets/images/bottle2.png" alt="" class="img-responsive">
@@ -93,9 +97,7 @@
                                                 <h4 class="hover-">2018</h4>
                                             </div>
 
-                                            <div class="mouse-scroll2 down-arrow">
-                                                <i class="fas fa-angle-double-down fa-2x "></i>
-                                            </div>
+                                            
                                             <p>U ovoj boci naći ćete kupažu vina po našem ukusu, nastalu iz berbe 2018
                                                 posebnim odabirom I pažljivom preradom grožđa. Kupaža se sastoji od
                                                 sorti
@@ -565,6 +567,18 @@
 
 
     <script src="assets/js/hover.js"></script>
+
+
+    <script>
+        $('#myCarousel-mobile').on('slide.bs.carousel', function () {
+            $(".mouse-scroll").show();
+
+            $(window).scroll(function(){
+                $(".mouse-scroll").hide();
+            });
+
+        })
+    </script>
 </body>
 
 </html>
