@@ -78,13 +78,13 @@
     width: 7px;
     height: 7px;
     border-radius: 100%;
-    border: 1px solid #1c1c1c;
+    border: 1px solid #464646;
     background-color: transparent;
     margin: 10px;
 }
 
 .carousel-indicators .active {
-    background-color: #1c1c1c;
+    background-color: #464646;
 }
 
 
