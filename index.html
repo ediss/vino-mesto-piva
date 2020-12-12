@@ -38,12 +38,12 @@
                             <div class="col-md-8 offset-md-2 col-lg-10 offset-lg-1">
                                 <div class="carousel-item active">
                                     <div class="d-flex align-items-center justify-content-center min-vh-100">
-                                        <img src="assets/images/logo.png" alt="" class="img-responsive logso-img">
+                                        <img src="assets/images/logo.png" alt="" class="img-responsive animate__animated animate__zoomInDown animate__slow">
                                     </div>
                                 </div>
                                 <div class="carousel-item d-lg-none">
                                     <div class="d-flex align-items-center justify-content-center min-vh-100">
-                                        <img src="assets/images/bottle.png" alt="" class="img-responsive">
+                                        <img src="assets/images/bottle.png" alt="" class="img-responsive animate__animated animate__swing animate__slow">
 
                                     </div>
                                 </div>
@@ -58,7 +58,7 @@
                                         <div class="slide-content  text-justify">
 
                                             <div class="heading">
-                                                <h4>VINO 'MESTO PIVA</h4>
+                                                <h4 id="brand-name-mobile"></h4>
                                             </div>
 
 
@@ -617,6 +617,19 @@
             });
 
 
+            var app = document.getElementById('brand-name-mobile');
+
+            var typewriter = new Typewriter(app, {
+                cursor: "",
+                delay: 55,
+            });
+
+            typewriter
+                .pauseFor(500)
+                .typeString("VINO 'MESTO PIVA")
+
+                .pauseFor(1500)
+                .start();
 
         });
 
