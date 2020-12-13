@@ -81,6 +81,7 @@
     border: 1px solid #464646;
     background-color: transparent;
     margin: 10px;
+    margin-bottom: 0px;
 }
 
 .carousel-indicators .active {
