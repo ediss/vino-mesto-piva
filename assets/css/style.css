@@ -152,7 +152,7 @@
     top: 0;
     right: 70%; */
     position: absolute;
-    top: 26%;
+    top: 32%;
     right: 22%;
     transform: scale(1.8);
 }
@@ -205,7 +205,7 @@
     }
 
     .bg-dark-linear p {
-        line-height: 24pt;
+        line-height: 20pt;
         letter-spacing: 0.05em;
         word-spacing: 0px;
     }
