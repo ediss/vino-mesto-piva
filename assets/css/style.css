@@ -198,6 +198,13 @@
     .mouse-scroll2 {
         top: 6%;
     }
+
+    .buy-wine {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+    }
 }
 @media screen and (min-width: 768px) {
     .bg-dark-linear h4 {
