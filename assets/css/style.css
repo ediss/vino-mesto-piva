@@ -41,7 +41,7 @@
     animation-name: zoom-animation;
     animation-duration: 0.9s;
     animation-timing-function: ease-out;
-    
+
 }
 
 .bg-dark-linear p {
@@ -129,7 +129,7 @@
 
 /* #myCarousel-mobile .carousel-inner {
     height: calc(100vh - 30px);
-    
+
 } */
 
 .desktop-partners {
@@ -189,9 +189,9 @@
 
 @keyframes downarrow {
     0% {
-        -webkit-transform: translateY(0); 
-        transform: translateY(0); 
-        opacity: 1 
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1
     }
     100% {
         -webkit-transform: translateY(1.1em);
@@ -205,6 +205,15 @@
     100% {transform:scale(1);}
   }
 
+@media screen and (min-width: 320px) {
+    .buy-wine {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+    }
+}
+
 
 @media screen and (min-width: 374px) {
     .bg-dark-linear h4 {
@@ -215,12 +224,7 @@
         top: 6%;
     }
 
-    .buy-wine {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        text-align: center;
-    }
+   
 }
 @media screen and (min-width: 768px) {
     .bg-dark-linear h4 {
@@ -238,9 +242,7 @@
         margin:10px 28px;
     }
 
-    .partner-logos a img { 
+    .partner-logos a img {
         max-width: 55% !important;
     }
-
-   
 }
