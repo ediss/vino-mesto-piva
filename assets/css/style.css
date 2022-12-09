@@ -249,14 +249,13 @@
     }
 }
 
-.carousel-control-next {
+.next-slide-mobile{
     justify-content: flex-end;
 }
 
-.carousel-control-prev {
+.prev-slide-mobile {
     justify-content: flex-start;
 }
-
-.carousel-control-prev-icon {
+.prev-icon-mobile {
     margin-left: 2px;
 }
